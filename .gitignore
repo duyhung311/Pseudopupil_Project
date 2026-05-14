@@ -1,0 +1,8 @@
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+
+# Ignore MATLAB data files
+*.mat
+./Aeschna_isoceles
