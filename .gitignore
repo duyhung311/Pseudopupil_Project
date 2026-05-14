@@ -1,12 +1,20 @@
-# Ignore images
-/**/*.png
-/**/*.jpg
-/**/**.jpeg
+# Ignore images anywhere in the repository
+*.png
+*.jpg
+*.jpeg
+*.json
+*.csv
 
-# Ignore MATLAB data files
+# Ignore MATLAB data files anywhere
 *.mat
 
-
-./Aeschna_isoceles/**
-./Apocordulia_macrops/**
-
+# Ignore everything inside these specific folders
+Aeschna_isoceles/
+Apocordulia_macrops/
+debug_img/
+debug_infer_images/
+# Ignore any folder containing "_26" in its name
+*_26*/
+830*/
+img-Apocordulia_macrops/
+img-/
